@@ -1,0 +1,14 @@
+@media screen and (max-width: 1200px) {
+  /* hide desktop nav on smaller screens */
+  #desktop-nav {
+    display: none;
+  }
+
+  /* show hamburger nav on smaller screens */
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+}
